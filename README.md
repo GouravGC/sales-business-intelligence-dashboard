@@ -1,3 +1,5 @@
+app_url = https://sales-business-intelligence-dashboard.streamlit.app/
+
 # Sales Business Intelligence Dashboard
 
 This project transforms raw sales data into actionable business intelligence using SQL, Python, Pandas, DuckDB, Plotly, Power BI, and Streamlit. It combines SQL-based business analysis, interactive Python visualizations, and executive Power BI dashboards to deliver comprehensive business insights.
