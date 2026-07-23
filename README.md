@@ -12,7 +12,6 @@ This project transforms raw sales data into actionable business intelligence usi
   - [Usage](#usage)
   - [Folder Structure](#folder-structure)
   - [Technologies Used](#technologies-used)
-  - [License](#license)
 
 ## Project Overview
 
@@ -122,7 +121,3 @@ Open your web browser and navigate to the local URL provided by Streamlit (usual
 - DuckDB
 - openpyxl
 - Kaleido
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
