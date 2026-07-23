@@ -18,4 +18,4 @@ st.info(
     "The insights are crucial for strategic decision-making and improving overall business performance."
 )
 
-st.image("images/dashboard_overview.png", caption="Dashboard Overview")
+st.image("images/dashboard_overview.PNG", caption="Dashboard Overview")
