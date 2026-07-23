@@ -1,6 +1,6 @@
 # Sales Business Intelligence Dashboard
 
-This project transforms raw sales data into actionable business intelligence using Python, Pandas, DuckDB, and Plotly, presented through an interactive Streamlit dashboard.
+This project transforms raw sales data into actionable business intelligence using SQL, Python, Pandas, DuckDB, Plotly, Power BI, and Streamlit. It combines SQL-based business analysis, interactive Python visualizations, and executive Power BI dashboards to deliver comprehensive business insights.
 
 ## Table of Contents
 
@@ -12,7 +12,6 @@ This project transforms raw sales data into actionable business intelligence usi
   - [Usage](#usage)
   - [Folder Structure](#folder-structure)
   - [Technologies Used](#technologies-used)
-  - [License](#license)
 
 ## Project Overview
 
@@ -20,6 +19,8 @@ The primary goal of this project is to provide a comprehensive analytical framew
 
 ## Features
 
+- **SQL Business Analysis:** Perform advanced business queries using SQL (DuckDB) to uncover key insights.
+- **Power BI Dashboard:** Includes a professional Power BI dashboard (`.pbix`) and PDF report for executive-level business reporting.
 - **Interactive KPI Cards:** Quickly view key business metrics such as total revenue, profit, orders, and average order value.
 - **Time-Series Analysis:** Explore yearly, monthly, and quarterly revenue and profit trends with interactive Plotly charts.
 - **Geographical Analysis:** Understand sales and profit distribution across regions, states, and cities.
@@ -101,6 +102,9 @@ Open your web browser and navigate to the local URL provided by Streamlit (usual
 │   ├── 4_SQL_Analysis.py
 │   ├── 5_Business_Insights.py
 │   ├── 6_Reports_and_Downloads.py
+├── powerbi/
+│   ├── Sales_Business_Intelligence_Dashboard.pbix
+│   └── Sales_Business_Intelligence_Dashboard.pdf
 └── images/
     └── dashboard_overview.png
 
@@ -109,13 +113,11 @@ Open your web browser and navigate to the local URL provided by Streamlit (usual
 ## Technologies Used
 
 - Python 3.x
+- SQL (DuckDB)
 - Streamlit
 - Pandas
 - Plotly (Plotly Express, Graph Objects)
+- Microsoft Power BI
 - DuckDB
 - openpyxl
-- Kaleido (for static image export, if needed)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- Kaleido
